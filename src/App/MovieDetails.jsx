@@ -10,7 +10,7 @@ function MovieDetails() {
 
   useEffect(() => {
     axios
-      .get(`http://localhost:3000/movies/${id}`)
+      .get(`http://localhost:3000/movieTable/${id}`)
       .then((res) => setMovie(res.data))
       .catch((err) => console.log(err));
   }, [id]);

@@ -3,6 +3,7 @@ import { Alert } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
 
 class NotFound extends Component{
+    
     constructor(props){
         super(props);
         this.state = {
