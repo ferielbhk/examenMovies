@@ -32,7 +32,7 @@ function NavigationBar (){
                   </li>
                   <li className="nav-item">
                     
-                  <NavLink to="/movies" style={({ isActive }) => ({ textDecoration: isActive ? 'underline' : 'none' })}>Movies</NavLink>
+                  <NavLink to="/moviess" style={({ isActive }) => ({ textDecoration: isActive ? 'underline' : 'none' })}>Movies</NavLink>
                   </li>
 
                   <li className="nav-item mx-5">
